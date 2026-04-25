@@ -1,0 +1,25 @@
+{
+  "episode_id": "episode_20260201_225717_453905",
+  "label": "Sponge_Red",
+  "batch_progress": "15/30",
+  "real_sampling_rate": 200.07005566980683,
+  "num_samples": 2826,
+  "duration_s": 14.125052300000334,
+  "log_file": "/home/martina/Y3_Project/learn_PyBullet/outputs/logs/position_logs.json",
+  "missed_segments": [
+    1,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "joint_names": [
+    "shoulder_pan",
+    "shoulder_lift",
+    "elbow_flex",
+    "wrist_flex",
+    "wrist_roll",
+    "gripper"
+  ]
+}

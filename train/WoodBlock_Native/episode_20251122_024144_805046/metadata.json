@@ -1,0 +1,25 @@
+{
+  "episode_id": "episode_20251122_024144_805046",
+  "label": "WoodBlock_Native",
+  "batch_progress": "9/20",
+  "real_sampling_rate": 200.06980363492048,
+  "num_samples": 2836,
+  "duration_s": 14.175052648999554,
+  "log_file": "learn_PyBullet/outputs/logs/position_logs.json",
+  "missed_segments": [
+    1,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "joint_names": [
+    "shoulder_pan",
+    "shoulder_lift",
+    "elbow_flex",
+    "wrist_flex",
+    "wrist_roll",
+    "gripper"
+  ]
+}

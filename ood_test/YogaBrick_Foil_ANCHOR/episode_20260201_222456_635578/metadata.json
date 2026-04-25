@@ -1,0 +1,25 @@
+{
+  "episode_id": "episode_20260201_222456_635578",
+  "label": "YogaBrick_Foil_ANCHOR",
+  "batch_progress": "7/30",
+  "real_sampling_rate": 200.07001096302957,
+  "num_samples": 2828,
+  "duration_s": 14.135051957000087,
+  "log_file": "/home/martina/Y3_Project/learn_PyBullet/outputs/logs/position_logs.json",
+  "missed_segments": [
+    1,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "joint_names": [
+    "shoulder_pan",
+    "shoulder_lift",
+    "elbow_flex",
+    "wrist_flex",
+    "wrist_roll",
+    "gripper"
+  ]
+}

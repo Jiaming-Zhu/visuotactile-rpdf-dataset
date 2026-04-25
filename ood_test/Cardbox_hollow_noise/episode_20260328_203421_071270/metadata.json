@@ -1,0 +1,25 @@
+{
+  "episode_id": "episode_20260328_203421_071270",
+  "label": "unlabeled",
+  "batch_progress": "14/30",
+  "real_sampling_rate": 200.070535921929,
+  "num_samples": 2808,
+  "duration_s": 14.035050124000918,
+  "log_file": "/home/martina/Y3_Project/visuotactile/outputs/logs/position_logs.json",
+  "missed_segments": [
+    1,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "joint_names": [
+    "shoulder_pan",
+    "shoulder_lift",
+    "elbow_flex",
+    "wrist_flex",
+    "wrist_roll",
+    "gripper"
+  ]
+}

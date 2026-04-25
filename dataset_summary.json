@@ -1,0 +1,34 @@
+{
+  "name": "Visuotactile RPDF Dataset",
+  "code_repository": "https://github.com/Jiaming-Zhu/visuotactile",
+  "total_episodes": 909,
+  "splits": {
+    "train": 607,
+    "val": 76,
+    "test": 76,
+    "ood_test": 150
+  },
+  "modalities": [
+    "visual_anchor.jpg",
+    "tactile_data.pkl",
+    "metadata.json"
+  ],
+  "tasks": {
+    "mass": ["low", "medium", "high"],
+    "stiffness": ["soft", "medium", "rigid"],
+    "material": ["sponge", "foam", "wood", "container"]
+  },
+  "tactile_channels": {
+    "0-5": "joint position",
+    "6-11": "joint load",
+    "12-17": "joint current",
+    "18-23": "joint velocity"
+  },
+  "ood_objects": [
+    "Box_Rock_Blue",
+    "Cardbox_hollow_noise",
+    "Sponge_Red",
+    "WoodBlock_noise1",
+    "YogaBrick_Foil_ANCHOR"
+  ]
+}

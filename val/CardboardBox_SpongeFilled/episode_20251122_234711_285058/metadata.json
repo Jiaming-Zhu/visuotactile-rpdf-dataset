@@ -1,0 +1,24 @@
+{
+  "episode_id": "episode_20251122_234711_285058",
+  "label": "CardboardBox_SpongeFilled",
+  "batch_progress": "1/1",
+  "real_sampling_rate": 200.07080166512102,
+  "num_samples": 2796,
+  "duration_s": 13.975052714988124,
+  "log_file": "learn_PyBullet/outputs/logs/position_logs.json",
+  "missed_segments": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "joint_names": [
+    "shoulder_pan",
+    "shoulder_lift",
+    "elbow_flex",
+    "wrist_flex",
+    "wrist_roll",
+    "gripper"
+  ]
+}

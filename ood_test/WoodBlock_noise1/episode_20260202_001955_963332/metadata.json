@@ -1,0 +1,26 @@
+{
+  "episode_id": "episode_20260202_001955_963332",
+  "label": "WoodBlock_noise1",
+  "batch_progress": "1/30",
+  "real_sampling_rate": 200.06284465534793,
+  "num_samples": 3150,
+  "duration_s": 15.745052537999072,
+  "log_file": "/home/martina/Y3_Project/learn_PyBullet/outputs/logs/position_logs.json",
+  "missed_segments": [
+    1,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "joint_names": [
+    "shoulder_pan",
+    "shoulder_lift",
+    "elbow_flex",
+    "wrist_flex",
+    "wrist_roll",
+    "gripper"
+  ]
+}

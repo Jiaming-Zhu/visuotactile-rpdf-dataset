@@ -1,0 +1,70 @@
+{
+  "properties": {
+    "YogaBrick_Foil_ANCHOR": {
+      "mass": "low",
+      "stiffness": "medium",
+      "material": "foam"
+    },
+    "WoodBlock_noise1": {
+      "mass": "medium",
+      "stiffness": "rigid",
+      "material": "wood"
+    },
+    "WoodBlock_noise2": {
+      "mass": "medium",
+      "stiffness": "rigid",
+      "material": "wood"
+    },
+    "Sponge_Red": {
+      "mass": "low",
+      "stiffness": "very_soft",
+      "material": "sponge"
+    },
+    "Box_Rock_Blue": {
+      "mass": "high",
+      "stiffness": "rigid",
+      "material": "filled_container"
+    },
+    "Cardbox_hollow_noise": {
+      "mass": "low",
+      "stiffness": "soft",
+      "material": "hollow_container"
+    }
+  },
+  "mass_to_idx": {
+    "low": 0,
+    "medium": 1,
+    "high": 2
+  },
+  "stiffness_to_idx": {
+    "very_soft": 0,
+    "soft": 1,
+    "medium": 2,
+    "rigid": 3
+  },
+  "material_to_idx": {
+    "sponge": 0,
+    "foam": 1,
+    "wood": 2,
+    "hollow_container": 3,
+    "filled_container": 4
+  },
+  "idx_to_mass": {
+    "0": "low",
+    "1": "medium",
+    "2": "high"
+  },
+  "idx_to_stiffness": {
+    "0": "very_soft",
+    "1": "soft",
+    "2": "medium",
+    "3": "rigid"
+  },
+  "idx_to_material": {
+    "0": "sponge",
+    "1": "foam",
+    "2": "wood",
+    "3": "hollow_container",
+    "4": "filled_container"
+  }
+}

@@ -1,0 +1,9 @@
+__pycache__/
+.DS_Store
+.ipynb_checkpoints/
+*.pyc
+
+# Local checks or regenerated temporary files
+tmp/
+scratch/
+*.log

@@ -1,0 +1,24 @@
+{
+  "episode_id": "episode_20251129_224541_536140",
+  "label": "CardboardBox_RockFilled_Red",
+  "batch_progress": "58/80",
+  "real_sampling_rate": 200.0704764397186,
+  "num_samples": 2807,
+  "duration_s": 14.0300560579999,
+  "log_file": "/home/martina/Y3_Project/learn_PyBullet/outputs/logs/position_logs.json",
+  "missed_segments": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "joint_names": [
+    "shoulder_pan",
+    "shoulder_lift",
+    "elbow_flex",
+    "wrist_flex",
+    "wrist_roll",
+    "gripper"
+  ]
+}

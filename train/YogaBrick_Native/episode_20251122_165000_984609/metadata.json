@@ -1,0 +1,25 @@
+{
+  "episode_id": "episode_20251122_165000_984609",
+  "label": "\u001b[A",
+  "batch_progress": "10/50",
+  "real_sampling_rate": 200.070055769084,
+  "num_samples": 2826,
+  "duration_s": 14.125052292991313,
+  "log_file": "learn_PyBullet/outputs/logs/position_logs.json",
+  "missed_segments": [
+    1,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "joint_names": [
+    "shoulder_pan",
+    "shoulder_lift",
+    "elbow_flex",
+    "wrist_flex",
+    "wrist_roll",
+    "gripper"
+  ]
+}

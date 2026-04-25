@@ -1,0 +1,24 @@
+{
+  "episode_id": "episode_20251130_020340_689056",
+  "label": "CardboardBox_Hollow",
+  "batch_progress": "3/8",
+  "real_sampling_rate": 200.07076226850097,
+  "num_samples": 2798,
+  "duration_s": 13.985051930001646,
+  "log_file": "/home/martina/Y3_Project/learn_PyBullet/outputs/logs/position_logs.json",
+  "missed_segments": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "joint_names": [
+    "shoulder_pan",
+    "shoulder_lift",
+    "elbow_flex",
+    "wrist_flex",
+    "wrist_roll",
+    "gripper"
+  ]
+}

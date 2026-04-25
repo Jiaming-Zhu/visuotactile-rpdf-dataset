@@ -1,0 +1,24 @@
+{
+  "episode_id": "episode_20251130_005101_346836",
+  "label": "WoodBlock_Foil",
+  "batch_progress": "54/80",
+  "real_sampling_rate": 200.07042139225146,
+  "num_samples": 2816,
+  "duration_s": 14.075044078999781,
+  "log_file": "/home/martina/Y3_Project/learn_PyBullet/outputs/logs/position_logs.json",
+  "missed_segments": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "joint_names": [
+    "shoulder_pan",
+    "shoulder_lift",
+    "elbow_flex",
+    "wrist_flex",
+    "wrist_roll",
+    "gripper"
+  ]
+}
