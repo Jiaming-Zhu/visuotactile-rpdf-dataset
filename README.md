@@ -6,6 +6,29 @@ object-property prediction experiments.
 Code repository:
 https://github.com/Jiaming-Zhu/visuotactile
 
+## Introduction
+
+The dataset records robot-object interactions for a low-cost physical-property
+prediction project. Each sample combines a pre-contact RGB image with internal
+motor feedback from the robot, allowing the companion software to evaluate
+whether proprioceptive evidence can reduce shortcut failures under deceptive
+visual cues.
+
+The repository is separated from the software repository so that the code can
+stay lightweight while the data remain publicly accessible and versioned at the
+point of final-report submission.
+
+## Contextual Overview
+
+```text
+physical object
+  -> SO-101 grasp-like interaction
+  -> visual_anchor.jpg + tactile_data.pkl + metadata.json
+  -> train/val/test/ood_test split
+  -> RPDF training and evaluation code
+  -> mass, stiffness, and material predictions
+```
+
 ## Task
 
 Each episode is one robot-object interaction. The learning task is to predict
@@ -30,6 +53,18 @@ time-series signal collected from the robot motors.
 
 The full directory is about 728 MB. The largest individual file is below 1 MB,
 so this repository does not require Git LFS.
+
+## Installation and Access
+
+Clone the dataset repository:
+
+```bash
+git clone https://github.com/Jiaming-Zhu/visuotactile-rpdf-dataset.git
+```
+
+No Python package installation is required for the dataset itself. To train or
+evaluate models, install the dependencies listed in the companion code
+repository README and pass this dataset directory as `--data_root`.
 
 ## Structure
 
@@ -104,3 +139,25 @@ python scripts/train_fusion_gating_online_reliable.py \
 This dataset is intended for academic research and reproducibility of the RPDF
 experiments. Check the code repository for model definitions, evaluation
 scripts, and paper-facing results.
+
+## Known Issues and Future Improvements
+
+- The dataset is controlled rather than a large-scale natural benchmark. It is
+  designed to expose deceptive visual-cue failures, not to cover all household
+  or industrial objects.
+- Data were collected with one robot platform and one grasp-like interaction
+  protocol. Cross-robot transfer and richer manipulation actions remain future
+  work.
+- Labels are discrete property classes. Future datasets could include
+  continuous mass, stiffness, compliance, and friction measurements.
+- The OOD split focuses on a small set of deceptive objects. Additional object
+  identities would improve statistical coverage.
+
+## Third-Party Data and Licences
+
+This repository contains project-collected robot episodes, metadata, and images.
+It does not include third-party datasets, model checkpoints, or external source
+code. The companion code repository depends on third-party Python and robotics
+packages, which remain under their own licences. This dataset is provided as an
+academic assessment and reproducibility artefact; contact the author before
+redistributing it outside that context.
